@@ -25,4 +25,3 @@ const Footer = () => {
 
 
 
-// <a style={styles.link}  href="https://facebook.com/jorgivan/" ><FontAwesomeIcon icon={faFacebook,faInstagram,faTwitter}/></a>
