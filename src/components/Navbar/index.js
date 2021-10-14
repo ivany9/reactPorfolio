@@ -4,6 +4,7 @@ import {
   NavLink,
   Bars,
   NavMenu,
+  MainLink,
 } from './NavbarElements';
 
 const Navbar = () => {
@@ -11,8 +12,9 @@ const Navbar = () => {
     <>
       <Nav>
         <NavLink to='/'>
-          Jorge Ivan Rodriguez
-        </NavLink>
+          <MainLink>
+          Jorge Ivan Rodriguez </MainLink>
+            </NavLink>
         <Bars />
         <NavMenu>
           <NavLink to='/about' activeStyle>

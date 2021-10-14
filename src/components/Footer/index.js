@@ -1,5 +1,5 @@
 import React from 'react';
-import {FooterLink,Box} from './FooterStyles';
+import {FooterLink,Box,Container} from './FooterStyles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook,faInstagram,faTwitter,faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
@@ -8,7 +8,7 @@ const Footer = () => {
     return (
         
         
-         <Box>
+         <Container>
        
        <FooterLink href="https://facebook.com/jorgivan/" ><FontAwesomeIcon icon={faFacebook}/></FooterLink>
        <FooterLink href="https://instagram.com/jivan298" ><FontAwesomeIcon icon={faInstagram}/></FooterLink>
@@ -16,7 +16,7 @@ const Footer = () => {
        <FooterLink href="https://twitter.com/jorgivan298" ><FontAwesomeIcon icon={faLinkedinIn}/></FooterLink> 
           
            
-      </Box>
+      </Container>
     );
   };
   export default Footer;

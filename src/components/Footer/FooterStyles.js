@@ -1,24 +1,28 @@
 import styled from 'styled-components';
 
-export const Box = styled.div`
+export const Container = styled.div`
 display:flex;
-padding: 80px 60px;
 background: black;
-position: absolute;
 bottom: 0;
-width: 100%;
-align-items: center;
 justify-content: center;
-padding: 0.5rem calc((100vw - 1000px) / 2);
-z-index: 10;
-`
+margin: 0 auto;
+aline-item:center;
+max-width: 1000px
+
+
+  
+
+@media screen and (max-width: 768px) {
+	justify-content: center;
+    font-size: 1.0rem;
+   `
 
 
 export const FooterLink = styled.a`
 
 color: #fff;
 font-size: 1.8rem;
-padding: 0 1rem;
+padding: 1rem;
 
 
 &:hover {

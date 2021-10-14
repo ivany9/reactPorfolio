@@ -20,11 +20,34 @@ export const NavLink = styled(Link)`
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
+  font-size:20px;
+
+  &:hover {
+    color: green;
+    transition: 200ms ease-in;
+  }
 
   &.active {
-    color: #15cdfc;
+    color: green;
   }
 `;
+
+
+export const MainLink = styled.p`
+  
+  font-size:30px;
+  color:white;
+
+  &:hover {
+    color: green;
+    transition: 200ms ease-in;
+  }
+
+  &.active {
+    color: green;
+  }
+`;
+
 
 export const Bars = styled(FaBars)`
   display: none;
