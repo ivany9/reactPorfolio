@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <>
       <Nav>
-        <NavLink to='/'>
+        <NavLink to='/home'>
           Jorge Ivan Rodriguez
         </NavLink>
         <Bars />
