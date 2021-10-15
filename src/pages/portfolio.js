@@ -14,8 +14,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
      const styles ={
        link:{
            textDecoration: "none",
-           fontSize:'1.2rem',
-           color:"white",
+           fontSize:'1.8rem',
+           color:"green ",
        },
 
 
@@ -39,7 +39,7 @@ const Portfolio = () => {
               <MDBCarouselElement src='https://mdbootstrap.com/img/Photos/Slides/img%20(22).jpg' alt='...' />
               <MDBCarouselCaption>
                 <h5>Second slide label</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a style={styles.link} href=""><FontAwesomeIcon icon={faGithub}/></a>
               </MDBCarouselCaption>
             </MDBCarouselItem>
     
@@ -47,7 +47,7 @@ const Portfolio = () => {
               <MDBCarouselElement src='https://mdbootstrap.com/img/Photos/Slides/img%20(23).jpg' alt='...' />
               <MDBCarouselCaption>
                 <h5>Third slide label</h5>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                <a style={styles.link} href=""><FontAwesomeIcon icon={faGithub}/></a>
               </MDBCarouselCaption>
             </MDBCarouselItem>
           </MDBCarouselInner>
