@@ -1,6 +1,9 @@
 import React from 'react';
 import {faGithub} from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import html from '../images/html.gif';
+import video from '../images/video.gif';
+import api from '../images/api.gif';
 
     import {
       MDBCarousel,
@@ -16,7 +19,15 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
            textDecoration: "none",
            fontSize:'1.8rem',
            color:"green ",
-       },
+           
+          },
+        
+         h5:{
+           color:"green",
+           fontSize:'1.8rem',
+
+         }
+         
 
 
      } 
@@ -28,26 +39,26 @@ const Portfolio = () => {
         <MDBCarousel showIndicators showControls fade>
           <MDBCarouselInner>
             <MDBCarouselItem itemId={0}>
-              <MDBCarouselElement src='https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg' alt='...' />
+              <MDBCarouselElement img src={html} alt='...' />
               <MDBCarouselCaption>
-                <h5>First slide label</h5>
-                <a style={styles.link} href=""><FontAwesomeIcon icon={faGithub}/></a>
+              <h5 style= {styles.h5} ></h5>
+                <a style={styles.link} href="https://github.com/ivany9/Team-Profile-Generator.git"><FontAwesomeIcon icon={faGithub}/></a>
               </MDBCarouselCaption>
             </MDBCarouselItem>
     
             <MDBCarouselItem itemId={1}>
-              <MDBCarouselElement src='https://mdbootstrap.com/img/Photos/Slides/img%20(22).jpg' alt='...' />
+              <MDBCarouselElement img src={video} alt='...' />
               <MDBCarouselCaption>
-                <h5>Second slide label</h5>
-                <a style={styles.link} href=""><FontAwesomeIcon icon={faGithub}/></a>
+                <h5 style= {styles.h5} ></h5>
+                <a style={styles.link} href="https://github.com/ivany9/Progressive-Budget.git"><FontAwesomeIcon icon={faGithub}/></a>
               </MDBCarouselCaption>
             </MDBCarouselItem>
     
             <MDBCarouselItem itemId={2}>
-              <MDBCarouselElement src='https://mdbootstrap.com/img/Photos/Slides/img%20(23).jpg' alt='...' />
+              <MDBCarouselElement img src={api} alt='...' />
               <MDBCarouselCaption>
-                <h5>Third slide label</h5>
-                <a style={styles.link} href=""><FontAwesomeIcon icon={faGithub}/></a>
+              <h5 style= {styles.h5} ></h5>
+                <a style={styles.link} href="https://github.com/ivany9/Weather-Dashboard.git"><FontAwesomeIcon icon={faGithub}/></a>
               </MDBCarouselCaption>
             </MDBCarouselItem>
           </MDBCarouselInner>
