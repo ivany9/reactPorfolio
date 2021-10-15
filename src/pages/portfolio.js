@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import html from '../images/html.gif';
 import video from '../images/video.gif';
 import api from '../images/api.gif';
+import {ImgLink,Cont} from './pagesStyles'
 
     import {
       MDBCarousel,
@@ -36,13 +37,14 @@ import api from '../images/api.gif';
 
 const Portfolio = () => {
   return (
+        <Cont>
         <MDBCarousel showIndicators showControls fade>
           <MDBCarouselInner>
             <MDBCarouselItem itemId={0}>
               <MDBCarouselElement img src={html} alt='...' />
               <MDBCarouselCaption>
               <h5 style= {styles.h5} ></h5>
-                <a style={styles.link} href="https://github.com/ivany9/Team-Profile-Generator.git"><FontAwesomeIcon icon={faGithub}/></a>
+                <ImgLink   href="https://github.com/ivany9/Team-Profile-Generator.git"><FontAwesomeIcon icon={faGithub}/></ImgLink>
               </MDBCarouselCaption>
             </MDBCarouselItem>
     
@@ -50,7 +52,7 @@ const Portfolio = () => {
               <MDBCarouselElement img src={video} alt='...' />
               <MDBCarouselCaption>
                 <h5 style= {styles.h5} ></h5>
-                <a style={styles.link} href="https://github.com/ivany9/Progressive-Budget.git"><FontAwesomeIcon icon={faGithub}/></a>
+                <ImgLink href="https://github.com/ivany9/Progressive-Budget.git"><FontAwesomeIcon icon={faGithub}/></ImgLink>
               </MDBCarouselCaption>
             </MDBCarouselItem>
     
@@ -58,11 +60,12 @@ const Portfolio = () => {
               <MDBCarouselElement img src={api} alt='...' />
               <MDBCarouselCaption>
               <h5 style= {styles.h5} ></h5>
-                <a style={styles.link} href="https://github.com/ivany9/Weather-Dashboard.git"><FontAwesomeIcon icon={faGithub}/></a>
+                <ImgLink href="https://github.com/ivany9/Weather-Dashboard.git"><FontAwesomeIcon icon={faGithub}/></ImgLink>
               </MDBCarouselCaption>
             </MDBCarouselItem>
           </MDBCarouselInner>
         </MDBCarousel>
+        </Cont>
       );
     }
 export default Portfolio;
