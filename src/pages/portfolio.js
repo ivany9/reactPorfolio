@@ -1,4 +1,7 @@
 import React from 'react';
+import {faGithub} from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
     import {
       MDBCarousel,
       MDBCarouselInner,
@@ -6,6 +9,18 @@ import React from 'react';
       MDBCarouselElement,
       MDBCarouselCaption,
     } from 'mdb-react-ui-kit';
+
+
+     const styles ={
+       link:{
+           textDecoration: "none",
+           fontSize:'1.2rem',
+           color:"white",
+       },
+
+
+     } 
+
 
 
 const Portfolio = () => {
@@ -16,7 +31,7 @@ const Portfolio = () => {
               <MDBCarouselElement src='https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg' alt='...' />
               <MDBCarouselCaption>
                 <h5>First slide label</h5>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <a style={styles.link} href=""><FontAwesomeIcon icon={faGithub}/></a>
               </MDBCarouselCaption>
             </MDBCarouselItem>
     
