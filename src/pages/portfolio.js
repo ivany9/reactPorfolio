@@ -11,13 +11,7 @@ import {ImgLink,Cont} from './pagesStyles'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import  {Col, Row, Container,Card } from 'react-bootstrap';
 
-    import {
-      MDBCarousel,
-      MDBCarouselInner,
-      MDBCarouselItem,
-      MDBCarouselElement,
-      MDBCarouselCaption,
-    } from 'mdb-react-ui-kit';
+    
 
 
      const styles ={

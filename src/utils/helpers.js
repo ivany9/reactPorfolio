@@ -3,8 +3,8 @@ export function validateEmail(email) {
   return re.test(String(email).toLowerCase());
 }
 
-export function validatename(input) {
-  const namev = /^[A-Za-z]$/;
+export function validata(input) {
+  const namev = /^[A-Za-z]{1,200}$/;
   if (input.match(namev)) {
     return true;
   }
