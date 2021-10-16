@@ -1,8 +1,9 @@
 import styled from 'styled-components';
 
 export const ImgLink= styled.a`
-font-size: 2.0rem;
+font-size: 1.0rem;
 color:black;
+text-Decoration:none;
 
 
 &:hover {
@@ -22,13 +23,15 @@ aline-item:center;
 max-width: 800px;
 height: 1000px;
 padding: 100px;
+font-size:20px;
+color:white;
 
 `
 export const Cont= styled.div`
 
+
+padding:50px;
 background-color:green;
-
-
 
 
 `

@@ -4,7 +4,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import html from '../images/html.gif';
 import video from '../images/video.gif';
 import api from '../images/api.gif';
+import Ems from '../images/Ems.gif';
+import Ft from '../images/Ft.gif';
+import Ce from '../images/Ce.gif';
 import {ImgLink,Cont} from './pagesStyles'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import  {Col, Row, Container,Card } from 'react-bootstrap';
 
     import {
       MDBCarousel,
@@ -37,35 +42,102 @@ import {ImgLink,Cont} from './pagesStyles'
 
 const Portfolio = () => {
   return (
-        <Cont>
-        <MDBCarousel showIndicators showControls fade>
-          <MDBCarouselInner>
-            <MDBCarouselItem itemId={0}>
-              <MDBCarouselElement img src={html} alt='...' />
-              <MDBCarouselCaption>
-              <h5 style= {styles.h5} ></h5>
-                <ImgLink   href="https://github.com/ivany9/Team-Profile-Generator.git"><FontAwesomeIcon icon={faGithub}/></ImgLink>
-              </MDBCarouselCaption>
-            </MDBCarouselItem>
-    
-            <MDBCarouselItem itemId={1}>
-              <MDBCarouselElement img src={video} alt='...' />
-              <MDBCarouselCaption>
-                <h5 style= {styles.h5} ></h5>
-                <ImgLink href="https://github.com/ivany9/Progressive-Budget.git"><FontAwesomeIcon icon={faGithub}/></ImgLink>
-              </MDBCarouselCaption>
-            </MDBCarouselItem>
-    
-            <MDBCarouselItem itemId={2}>
-              <MDBCarouselElement img src={api} alt='...' />
-              <MDBCarouselCaption>
-              <h5 style= {styles.h5} ></h5>
-                <ImgLink href="https://github.com/ivany9/Weather-Dashboard.git"><FontAwesomeIcon icon={faGithub}/></ImgLink>
-              </MDBCarouselCaption>
-            </MDBCarouselItem>
-          </MDBCarouselInner>
-        </MDBCarousel>
-        </Cont>
+    <Cont>   
+    <Container>
+    <Row>
+      <Col xs><Card style={{ width: '25rem',height:'20rem',margin:'2rem' }}>
+  <Card.Img variant="top" src={html}/>
+  <Card.Body>
+   <Card.Title>
+   <ImgLink   href="https://github.com/ivany9/Team-Profile-Generator.git">Team Profile Generator  <FontAwesomeIcon icon={faGithub}/></ImgLink> 
+   </Card.Title>
+  </Card.Body>
+  
+</Card></Col>
+
+      <Col xs={{ order: 12 }}><Card style={{ width: '25rem' ,height:'20rem',margin:'2rem' }}>
+  <Card.Img variant="top" src={video}/>
+  <Card.Body>
+   <Card.Title>
+   <ImgLink href="https://github.com/ivany9/Progressive-Budget.git">Progressive-Budget   <FontAwesomeIcon icon={faGithub}/></ImgLink> 
+   </Card.Title>
+   
+
+  </Card.Body>
+  
+  
+</Card></Col>
+      
+    </Row>
+     
+    <Row>
+      <Col xs><Card style={{ width: '25rem', height:'20rem',margin:'2rem' }}>
+  <Card.Img variant="top" src={api}/>
+  <Card.Body>
+   <Card.Title>
+   <ImgLink href="https://github.com/ivany9/Weather-Dashboard.git">Weather-Dashboard  <FontAwesomeIcon icon={faGithub}/></ImgLink> 
+   </Card.Title>
+
+  </Card.Body>
+  
+  
+</Card></Col>
+      <Col xs={{ order: 12 }}><Card style={{ width: '25rem',height:'20rem',margin:'2rem' }}>
+  <Card.Img variant="top" src={Ems}/>
+  <Card.Body>
+   <Card.Title>
+   <ImgLink   href="https://github.com/ivany9/Employee-Management-System.git">Employee-Management-System  <FontAwesomeIcon icon={faGithub}/></ImgLink> 
+   </Card.Title>
+
+  </Card.Body>
+  
+</Card></Col>
+     
+      </Row>
+
+      <Row>
+      <Col xs><Card style={{ width: '25rem',height:'20rem',margin:'2rem' }}>
+  <Card.Img variant="top" src={Ft}/>
+  <Card.Body>
+   <Card.Title>
+   <ImgLink   href="https://github.com/ivany9/Fitness-Tracker.git">Fitness-Tracker  <FontAwesomeIcon icon={faGithub}/></ImgLink> 
+   </Card.Title>
+  </Card.Body>
+  
+</Card></Col>
+
+      <Col xs={{ order: 12 }}><Card style={{ width: '25rem' ,height:'20rem',margin:'2rem' }}>
+  <Card.Img variant="top" src={Ce}/>
+  <Card.Body>
+   <Card.Title>
+   <ImgLink href="https://github.com/ChristopherBz/Car-Enthusiasts.git">Car Enthusiasts  <FontAwesomeIcon icon={faGithub}/></ImgLink> 
+   </Card.Title>
+   
+
+  </Card.Body>
+  
+  
+</Card></Col>
+      
+    </Row>
+
+
+
+      
+     </Container>
+
+ </Cont>
+
+
+
+
+
       );
     }
 export default Portfolio;
+
+
+
+
+
+
