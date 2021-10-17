@@ -23,12 +23,12 @@ export const NavLink = styled(Link)`
   font-size:20px;
 
   &:hover {
-    color: green;
+    color: gray;
     transition: 200ms ease-in;
   }
 
   &.active {
-    color: green;
+    color: gray;
   }
 `;
 
@@ -39,7 +39,7 @@ export const MainLink = styled.p`
   color:white;
 
   &:hover {
-    color: green;
+    color: gray;
     transition: 200ms ease-in;
   }
 

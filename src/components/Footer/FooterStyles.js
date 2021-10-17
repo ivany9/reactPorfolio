@@ -26,7 +26,7 @@ padding: 1rem;
 
 
 &:hover {
-	color: green;
+	color: gray;
 	transition: 200ms ease-in;
 }
 `;

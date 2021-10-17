@@ -2,6 +2,7 @@ import { contains } from 'dom-helpers';
 import {Form,Cont,ImgLink} from './pagesStyles';
 import React, { useState } from 'react';
 import {validateEmail,validata } from '../utils/helpers'
+import  { Button} from 'react-bootstrap';
 
 const Contact = () => {
 
@@ -38,14 +39,14 @@ const Contact = () => {
    
        if(!validata(userName)){
         //alert(userName);
-         setErrorMessagename('write a name');
+         setErrorMessagename('Include name');
          return
          }
     
      else if(!validateEmail(email)){
           
         
-         setErrorMessageemail('Email no valid');
+         setErrorMessageemail('Invalid email');
          return;
          }
          else  if (!validata(texta)) {
@@ -87,7 +88,11 @@ const Contact = () => {
         <label htmlFor="message">Message</label>
         <textarea value={texta} onChange={handleInputChange} className="form-control" name="texta" rows="10"></textarea>  <ImgLink> {errorMessagedescription}</ImgLink>
     </div>
-    <button type="button" className="btn btn-dark .mt-3 "  onClick={handleFormSubmit} >Submit</button>
+    <div>
+      <br/>
+      </div>
+      < Button variant="dark" size="lg" onClick={handleFormSubmit}>Submit</Button>
+    
      </Form>
      
     

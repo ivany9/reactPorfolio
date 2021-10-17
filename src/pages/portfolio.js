@@ -25,14 +25,9 @@ import  {Col, Row, Container,Card } from 'react-bootstrap';
          h5:{
            color:"green",
            fontSize:'1.8rem',
-
          }
-         
-
-
+      
      } 
-
-
 
 const Portfolio = () => {
   return (
@@ -46,24 +41,16 @@ const Portfolio = () => {
    <ImgLink   href="https://github.com/ivany9/Team-Profile-Generator.git">Team Profile Generator  <FontAwesomeIcon icon={faGithub}/></ImgLink> 
    </Card.Title>
   </Card.Body>
-  
 </Card></Col>
-
-      <Col xs={{ order: 12 }}><Card style={{ width: '25rem' ,height:'20rem',margin:'2rem' }}>
+ <Col xs={{ order: 12 }}><Card style={{ width: '25rem' ,height:'20rem',margin:'2rem' }}>
   <Card.Img variant="top" src={video}/>
   <Card.Body>
    <Card.Title>
    <ImgLink href="https://github.com/ivany9/Progressive-Budget.git">Progressive-Budget   <FontAwesomeIcon icon={faGithub}/></ImgLink> 
    </Card.Title>
-   
-
   </Card.Body>
-  
-  
 </Card></Col>
-      
     </Row>
-     
     <Row>
       <Col xs><Card style={{ width: '25rem', height:'20rem',margin:'2rem' }}>
   <Card.Img variant="top" src={api}/>
@@ -71,10 +58,7 @@ const Portfolio = () => {
    <Card.Title>
    <ImgLink href="https://github.com/ivany9/Weather-Dashboard.git">Weather-Dashboard  <FontAwesomeIcon icon={faGithub}/></ImgLink> 
    </Card.Title>
-
   </Card.Body>
-  
-  
 </Card></Col>
       <Col xs={{ order: 12 }}><Card style={{ width: '25rem',height:'20rem',margin:'2rem' }}>
   <Card.Img variant="top" src={Ems}/>
@@ -82,13 +66,9 @@ const Portfolio = () => {
    <Card.Title>
    <ImgLink   href="https://github.com/ivany9/Employee-Management-System.git">Employee-Management-System  <FontAwesomeIcon icon={faGithub}/></ImgLink> 
    </Card.Title>
-
   </Card.Body>
-  
 </Card></Col>
-     
       </Row>
-
       <Row>
       <Col xs><Card style={{ width: '25rem',height:'20rem',margin:'2rem' }}>
   <Card.Img variant="top" src={Ft}/>
@@ -109,23 +89,10 @@ const Portfolio = () => {
    
 
   </Card.Body>
-  
-  
 </Card></Col>
-      
-    </Row>
-
-
-
-      
+     </Row> 
      </Container>
-
  </Cont>
-
-
-
-
-
       );
     }
 export default Portfolio;
