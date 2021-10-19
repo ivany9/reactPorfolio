@@ -92,7 +92,7 @@ const project=[
     return (
         <div className="card m-3" style={style}>
             <img src={props.image} className="card-img-top" alt="..." />
-            <div className="card-body">
+            <div className="card-body d-flex justify-content-center">
                 <h5 className="card-title fw-bold">{props.name}</h5>
                 
             </div>
