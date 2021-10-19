@@ -2,13 +2,14 @@ import styled from 'styled-components';
 
 
 export const ImgLink= styled.a`
-font-size: 1.0rem;
+font-size: 2.0rem;
 color:black;
 text-Decoration:none;
 
 
+
 &:hover {
-	color: gray;
+	color: green;
 	transition: 200ms ease-in;
 }
 

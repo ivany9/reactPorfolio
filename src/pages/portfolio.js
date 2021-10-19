@@ -6,16 +6,11 @@ import employee from '../images/employee-manager.gif'
 import fitness from '../images/fitness-tracker.gif'
 import car from '../images/car-enthusiats.gif'
 import {faGithub} from "@fortawesome/free-brands-svg-icons";
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {ImgLink,Cont,Img} from './pagesStyles'
-import { CardDeck } from 'react-bootstrap';
-import {
-  Card, CardImg, CardText, CardBody,
-  CardTitle, CardLink, CardFooter
-} from 'reactstrap';
-import { render } from '@testing-library/react';
-import React, { Component } from 'react';
+import {ImgLink,Cont} from './pagesStyles'
+import React from 'react';
 
 
 const project=[
@@ -23,199 +18,101 @@ const project=[
    title:"Team Profile Generator",
    image: team,
    url:"https://github.com/ivany9/Team-Profile-Generator.git",
-   id:1
+   id:1,
+   deploy:"https://ivany9.github.io/Team-Profile-Generator/"
   },
   {
       title:"Progressive Budget",
       image:progresive,
       url:"https://github.com/ivany9/Progressive-Budget.git",
-      id:2
+      id:2,
+      deploy:"https://progressibudget.herokuapp.com/"
      },
      {
       title:"Weather Dashboard",
       image: wheather,
       url:"https://github.com/ivany9/Weather-Dashboard.git",
-      id:3
+      id:3,
+      deploy:"https://ivany9.github.io/Weather-Dashboard/"
      },
      {
       title:"Employee Management System",
       image:employee,
       url:"https://github.com/ivany9/Employee-Management-System.git",
-      id:4
+      id:4,
+      deploy:"https://1drv.ms/v/s!Ap_psURWyWFqhzOratDxVNA5o1Rq?e=17FjeH"
      },
      {
       title:"Fitness Tracker",
       image:fitness,
       url:"https://github.com/ivany9/Fitness-Tracker.git",
-      id:5
+      id:5,
+      deploy:"https://fittness-track.herokuapp.com/"
      },
      {
       title:"Car Enthusiasts",
       image: car,
       url:"https://github.com/ChristopherBz/Car-Enthusiasts.git",
-      id:6
+      id:6,
+      deploy:"https://car-enthusiasts.herokuapp.com/"
      }
   
   ]
   
-  class Portfolio extends Component {
-    render() {
-      var rend= project.map(function(projects){
- 
-          
-      
-        return <div key={projects.title} className="columns portfolio-item">
-        <div className="item-wrap">
-         <a href={projects.url} title={projects.title}>
-            <Img alt={projects.title} src={projects.image} />
-            <div className="overlay">
-               <div className="portfolio-item-meta">
-              <h5>{projects.title}</h5>
-               </div>
-             </div>
-           <div className="link-icon"><i className="fa fa-link"></i></div>
-         </a>
-       </div>
-     </div>
-   })
-  
 
-
-   return (
-    <section id="portfolio">
-
-    <div className="row">
-
-       <div className="twelve columns collapsed">
-
-          <h1>Check Out Some of My Works.</h1>
-
-          <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-              {rend}
-          </div>
+  const  Portfolio=()=> {
+    return (
+      <Cont>
+      <div>
+        <h4 className = "text-center mb-3 fw">Projects</h4>
+        <div className = "d-flex flex-wrap justify-content-evenly">
+        {project.map((projects)=>(
+        <Card
+        name = {projects.title}
+        image = {projects.image}
+        url = {projects.url}
+        id = {projects.id}
+        deploy={projects.deploy}
+        />
+        ))}
         </div>
-    </div>
- </section>
-  );
-}
-}
-         
+      </div>
+      </Cont>
+    );
+      
+     
+  }
 
+  function Card(props) {
+     
+    const style = {
+      width:"25rem"
+    } 
 
-    
-       
+    return (
+        <div className="card m-3" style={style}>
+            <img src={props.image} className="card-img-top" alt="..." />
+            <div className="card-body">
+                <h5 className="card-title fw-bold">{props.name}</h5>
+                
+            </div>
+            <div className="card-body d-flex justify-content-center ">
+             
+            <ImgLink   href={props.url}><FontAwesomeIcon icon={faGithub} /></ImgLink> 
+            <ImgLink   href={props.deploy}><FontAwesomeIcon icon={faCoffee}/></ImgLink>
+              
+            </div>
+        </div>
+    )
+   }
   
 
-   
-   
-   
-
-
-
-  
-
-
-
-export default Portfolio;
-
-
-
-// <div>
-//       {project.map((projects) => (
-       
-//        <div>
-//        return (
-//         <div>
-//           <div className="card" style={cardStyle}>
-//             <img
-//               className="card-img-top"
-//               src={`http://placecorgi.com/${randomWidth()}`}
-//               alt="Card cap"
-//             />
-//             <div className="card-body">
-//               <h5 className="card-title">{props.name}</h5>
-//               <p className="card-text">{props.description}</p>
-//               <a href="#" className="btn btn-primary">
-//                 Adopt {props.name}
-//               </a>
-//             </div>
-//           </div>
-//         </div>
-//             </div>
-
-//       );
-//     }
+ export default Portfolio;
 
 
 
 
 
-// const Portfolio = () => {
-// return (
-// <Cont>   
-// <Container>
-// <Row>
-//  <Col xs><Card style={{ width: '25rem',height:'20rem',margin:'2rem' }}>
-// <Card.Img variant="top" src={html}/>
-// <Card.Body>
-// <Card.Title>
-// <ImgLink   href="https://github.com/ivany9/Team-Profile-Generator.git">Team Profile Generator  <FontAwesomeIcon icon={faGithub}/></ImgLink> 
-// </Card.Title>
-// </Card.Body>
-// </Card></Col>
-// <Col xs={{ order: 12 }}><Card style={{ width: '25rem' ,height:'20rem',margin:'2rem' }}>
-// <Card.Img variant="top" src={video}/>
-// <Card.Body>
-// <Card.Title>
-// <ImgLink href="https://github.com/ivany9/Progressive-Budget.git">Progressive-Budget   <FontAwesomeIcon icon={faGithub}/></ImgLink> 
-// </Card.Title>
-// </Card.Body>
-// </Card></Col>
-// </Row>
-// <Row>
-//  <Col xs><Card style={{ width: '25rem', height:'20rem',margin:'2rem' }}>
-// <Card.Img variant="top" src={api}/>
-// <Card.Body>
-// <Card.Title>
-// <ImgLink href="https://github.com/ivany9/Weather-Dashboard.git">Weather-Dashboard  <FontAwesomeIcon icon={faGithub}/></ImgLink> 
-// </Card.Title>
-// </Card.Body>
-// </Card></Col>
-//  <Col xs={{ order: 12 }}><Card style={{ width: '25rem',height:'20rem',margin:'2rem' }}>
-// <Card.Img variant="top" src={Ems}/>
-// <Card.Body>
-// <Card.Title>
-// <ImgLink   href="https://github.com/ivany9/Employee-Management-System.git">Employee-Management-System  <FontAwesomeIcon icon={faGithub}/></ImgLink> 
-// </Card.Title>
-// </Card.Body>
-// </Card></Col>
-//  </Row>
-//  <Row>
-//  <Col xs><Card style={{ width: '25rem',height:'20rem',margin:'2rem' }}>
-// <Card.Img variant="top" src={Ft}/>
-// <Card.Body>
-// <Card.Title>
-// <ImgLink   href="https://github.com/ivany9/Fitness-Tracker.git">Fitness-Tracker  <FontAwesomeIcon icon={faGithub}/></ImgLink> 
-// </Card.Title>
-// </Card.Body>
-
-// </Card></Col>
-
-//  <Col xs={{ order: 12 }}><Card style={{ width: '25rem' ,height:'20rem',margin:'2rem' }}>
-// <Card.Img variant="top" src={Ce}/>
-// <Card.Body>
-// <Card.Title>
-// <ImgLink href="https://github.com/ChristopherBz/Car-Enthusiasts.git">Car Enthusiasts  <FontAwesomeIcon icon={faGithub}/></ImgLink> 
-// </Card.Title>
-
-
-// </Card.Body>
-// </Card></Col>
-// </Row> 
-// </Container>
-// </Cont>
-//  );
-// }
 
 
 
