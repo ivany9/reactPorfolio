@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <>
       <Nav>
-        <NavLink to='/'>
+        <NavLink to='/about'>
           <MainLink>
           Jorge Ivan Rodriguez </MainLink>
             </NavLink>

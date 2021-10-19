@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import About from './pages/about';
-import Home from './pages/index';
+import Home from './pages';
 import Contact from './pages/contact';
 import Resume from './pages/resume';
 import Portfolio from './pages/portfolio';
@@ -17,11 +17,11 @@ function App() {
     <Router>
       <Navbar />
       <Switch>
-        <Route path='/' exact  component={Home} />
-        <Route path='/about'  component={About} /> 
-        <Route path='/portfolio' component={Portfolio} />
-        <Route path='/contact' component={Contact} />
-        <Route path='/resume' component={Resume} />
+        <Route path='/reactPorfolio' exact  component={Home} />
+        <Route path='/about' exact component={About} /> 
+        <Route path='/portfolio'exact component={Portfolio} />
+        <Route path='/contact'exact component={Contact} />
+        <Route path='/resume'exact component={Resume} />
       </Switch>
     </Router>
      </div>
