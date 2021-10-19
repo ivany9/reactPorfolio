@@ -77,16 +77,16 @@ const Contact = () => {
 
     <div className="form-group">
         <label htmlFor="name">Name</label>
-        <input value={userName} onChange={handleInputChange} name="userName"  className="form-control" placeholder="name"/><ImgLink> {errorMessagename}</ImgLink>
+        <input value={userName} onChange={handleInputChange} name="userName"  className="form-control" placeholder="name"/><p> {errorMessagename}</p>
     </div>
     <div className="form-group">
         <label htmlFor="exampleInputEmail1">Email address</label>
         <input  value={email} onChange={handleInputChange}  name="email" type="email" className="form-control" aria-describedby="emailHelp" placeholder="name@example.com" />
-        <ImgLink> {errorMessageemail}</ImgLink>
+        <p> {errorMessageemail}</p>
     </div>
     <div className="form-group">
         <label htmlFor="message">Message</label>
-        <textarea value={texta} onChange={handleInputChange} className="form-control" name="texta" rows="10"></textarea>  <ImgLink> {errorMessagedescription}</ImgLink>
+        <textarea value={texta} onChange={handleInputChange} className="form-control" name="texta" rows="10"></textarea>  <p> {errorMessagedescription}</p>
     </div>
     <div>
       <br/>
