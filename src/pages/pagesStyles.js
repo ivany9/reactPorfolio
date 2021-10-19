@@ -44,3 +44,22 @@ padding: 20px;
 
 
 `
+
+export const Photo=styled.img`
+ 
+height: 300px;
+border-radius: 25px;
+
+
+`
+export const Img=styled.img`
+ 
+height: 150px;
+
+
+`
+
+
+
+
+

@@ -1,4 +1,4 @@
-import React from 'react';
+
 import progresive from '../images/progresive-budget.gif'
 import team from '../images/team-generator.gif'
 import wheather from '../images/wheather-dashboard.gif'
@@ -8,8 +8,14 @@ import car from '../images/car-enthusiats.gif'
 import {faGithub} from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import  {Col, Row, Container,Card } from 'react-bootstrap';
-import {ImgLink,Cont} from './pagesStyles'
+import {ImgLink,Cont,Img} from './pagesStyles'
+import { CardDeck } from 'react-bootstrap';
+import {
+  Card, CardImg, CardText, CardBody,
+  CardTitle, CardLink, CardFooter
+} from 'reactstrap';
+import { render } from '@testing-library/react';
+import React, { Component } from 'react';
 
 
 const project=[
@@ -52,70 +58,56 @@ const project=[
   
   ]
   
-  const Portfolio=()=>{
-   
-      return(
-      
-           <div>
-              {project.map((projects)=>(
-
-                    <Display name={projects.title} url={projects.url} key={projects.id} image={projects.image} />
-
-
-              ))}
-
-
-
-           </div>
-      )
-
-      }
-
-
-
-    
-  
-  
-  
-  const Display=(props)=>{
-    console.log(props.image);
-    return(
-<section id="portfolio">
-
-<div className="row">
-
-   <div className="twelve columns collapsed">
-
-      <h1>Check Out Some of My Works.</h1>
-    
-      <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+  class Portfolio extends Component {
+    render() {
+      var rend= project.map(function(projects){
+ 
           
-    <Col xs><Card style={{ width: '25rem',height:'20rem',margin:'2rem' }}>
-   <Card.Img variant="top" src={props.image}/>
-    <Card.Body>
-    <Card.Title>
-    <ImgLink   href={props.url}>{props.name}<FontAwesomeIcon icon={faGithub}/></ImgLink> 
-    </Card.Title>
-    </Card.Body>
-   </Card></Col>
-     
+      
+        return <div key={projects.title} className="columns portfolio-item">
+        <div className="item-wrap">
+         <a href={projects.url} title={projects.title}>
+            <Img alt={projects.title} src={projects.image} />
+            <div className="overlay">
+               <div className="portfolio-item-meta">
+              <h5>{projects.title}</h5>
+               </div>
+             </div>
+           <div className="link-icon"><i className="fa fa-link"></i></div>
+         </a>
+       </div>
+     </div>
+   })
+  
 
-   </div>
+
+   return (
+    <section id="portfolio">
+
+    <div className="row">
+
+       <div className="twelve columns collapsed">
+
+          <h1>Check Out Some of My Works.</h1>
+
+          <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+              {rend}
           </div>
-      </div>
-   </section>
-  
-  
-
-   
-   
-    )
-
+        </div>
+    </div>
+ </section>
+  );
+}
+}
+         
 
 
-   }
     
+       
+  
 
+   
+   
    
 
 

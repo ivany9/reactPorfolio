@@ -1,21 +1,22 @@
 import React, { } from 'react';
 // import profilephoto from '../images/Ce.gif';
-import { Cont, Container} from './pagesStyles';
+import { Cont, Container, Photo} from './pagesStyles';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import  {Col, Row} from 'react-bootstrap';
 import logo from '../images/favicon.ico'
-
+import ivan from '../images/ivan.jpg'
 
 
 const About = () => {
   return (
-  
-
+    
+    
+     
 
      <Cont>
     <Container>
     <Row>
-      <Col sm={6}><img src={logo}/></Col>
+      <Col sm={6}><Photo src={ivan}/></Col>
     </Row>
     <Row>
       <Col sm={4}></Col>
