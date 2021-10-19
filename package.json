@@ -2,6 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ivany9.github.io/reactPorfolio",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
@@ -25,9 +26,12 @@
     "react-scripts": "4.0.3",
     "reactstrap": "^8.10.0",
     "styled-components": "^5.3.1",
-    "web-vitals": "^1.1.2"
+    "web-vitals": "^1.1.2",
+    
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -50,5 +54,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+     
+  
   }
+
 }
