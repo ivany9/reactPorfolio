@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import { Cont, Container,ImgLink} from './pagesStyles';
 import  {Col, Row, Button} from 'react-bootstrap';
-import resume from '../images/Resume.pdf'
+import resume from '../images/resume2.pdf'
 
 const Resume = () => {
   return (
@@ -77,7 +77,7 @@ const Resume = () => {
     
      <Row>
       <Col sm={1}>  
-       <a>< Button variant="dark" size="lg" href={resume} download="resume.pdf"> Resume</Button></a>
+       <a>< Button variant="dark" size="lg" href={resume} download="resume2.pdf"> Resume</Button></a>
       </Col>
      </Row>
   </Container>
