@@ -3,7 +3,7 @@ import React, { } from 'react';
 import { Cont, Container, Photo} from './pagesStyles';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import  {Col, Row} from 'react-bootstrap';
-import logo from '../images/favicon.ico'
+
 import ivan from '../images/ivan.jpg'
 
 
@@ -34,8 +34,9 @@ const About = () => {
            Bringing projects to life with strong development, design, and technical skills.</p>
         <div>
        <br/>
+       
       </div>   
-        <p>Living in Sydney Australia since 2015 with a passion for technology and developing.
+        <p>Living in Sydney Australia since 2015 with a passion   for technology and developing.
         
        </p>
        <div>

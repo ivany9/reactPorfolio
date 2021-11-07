@@ -23,6 +23,7 @@ const Resume = () => {
        <p>Web Developer 2021</p>
        <div>
       <br/>
+      
       </div>
    
        <h4>University Externado de Colomnia</h4>
