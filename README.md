@@ -23,7 +23,7 @@ SO THAT I can assess whether they're a good candidate for an open position
 
 ```bash
 -Node.js
--React
+-React.
 -React Boostrap
 -
 ```
