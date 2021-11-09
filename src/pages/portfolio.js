@@ -5,6 +5,7 @@ import wheather from '../images/wheather-dashboard.gif'
 import employee from '../images/employee-manager.gif'
 import fitness from '../images/fitness-tracker.gif'
 import car from '../images/car-enthusiats.gif'
+import toolsfinder from '../images/ToolsFinder.gif'
 import {faGithub} from "@fortawesome/free-brands-svg-icons";
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -55,9 +56,22 @@ const project=[
       url:"https://github.com/ChristopherBz/Car-Enthusiasts.git",
       id:6,
       deploy:"https://car-enthusiasts.herokuapp.com/"
+     },
+  
+  
+     {
+      title:"Tools Finder",
+      image: toolsfinder,
+      url:"https://github.com/ivany9/toolsfinder",
+      id:7,
+      deploy:"https://toolsfinder.herokuapp.com/"
      }
   
-  ]
+  
+  
+  
+  
+    ]
   
 
   const  Portfolio=()=> {
