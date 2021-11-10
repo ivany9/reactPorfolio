@@ -27,7 +27,7 @@ const About = () => {
        <br/>
       </div>
         <p>
-        Graduated as a systems engineer in 2006 with a degree from Politecnico University, Colombia. Full Stack Web Developer
+         Graduated as  a systems engineer in 2006 with a degree from Politecnico University, Colombia. Full Stack Web Developer
            with a formal qualification from the University of Sydney Boot Camp.
          Creative problem solver who is passionate about learning and expanding knowledge in new technologies. 
           Experience in front end and back end developing with a focus on developing apps that are functional and user friendly.  
