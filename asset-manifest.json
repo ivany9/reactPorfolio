@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.js": "/reactPorfolio/static/js/main.d3165bbf.chunk.js",
-    "main.js.map": "/reactPorfolio/static/js/main.d3165bbf.chunk.js.map",
-    "runtime-main.js": "/reactPorfolio/static/js/runtime-main.50e4e051.js",
-    "runtime-main.js.map": "/reactPorfolio/static/js/runtime-main.50e4e051.js.map",
-    "static/css/2.0a9ec390.chunk.css": "/reactPorfolio/static/css/2.0a9ec390.chunk.css",
-    "static/js/2.6b948ab0.chunk.js": "/reactPorfolio/static/js/2.6b948ab0.chunk.js",
-    "static/js/2.6b948ab0.chunk.js.map": "/reactPorfolio/static/js/2.6b948ab0.chunk.js.map",
-    "index.html": "/reactPorfolio/index.html",
-    "static/css/2.0a9ec390.chunk.css.map": "/reactPorfolio/static/css/2.0a9ec390.chunk.css.map",
-    "static/js/2.6b948ab0.chunk.js.LICENSE.txt": "/reactPorfolio/static/js/2.6b948ab0.chunk.js.LICENSE.txt",
-    "static/media/ToolsFinder.b3473026.gif": "/reactPorfolio/static/media/ToolsFinder.b3473026.gif",
-    "static/media/car-enthusiats.26aef8c2.gif": "/reactPorfolio/static/media/car-enthusiats.26aef8c2.gif",
-    "static/media/employee-manager.ce80dcbf.gif": "/reactPorfolio/static/media/employee-manager.ce80dcbf.gif",
-    "static/media/favicon.4fe75d5f.ico": "/reactPorfolio/static/media/favicon.4fe75d5f.ico",
-    "static/media/fitness-tracker.0cbc6c25.gif": "/reactPorfolio/static/media/fitness-tracker.0cbc6c25.gif",
-    "static/media/ivan.a7234c7d.jpg": "/reactPorfolio/static/media/ivan.a7234c7d.jpg",
-    "static/media/progresive-budget.4387ead8.gif": "/reactPorfolio/static/media/progresive-budget.4387ead8.gif",
-    "static/media/resume2.4754c068.pdf": "/reactPorfolio/static/media/resume2.4754c068.pdf",
-    "static/media/team-generator.ed038717.gif": "/reactPorfolio/static/media/team-generator.ed038717.gif",
-    "static/media/wheather-dashboard.2234911e.gif": "/reactPorfolio/static/media/wheather-dashboard.2234911e.gif"
+    "main.js": "/reactPortfolio/static/js/main.67138a25.chunk.js",
+    "main.js.map": "/reactPortfolio/static/js/main.67138a25.chunk.js.map",
+    "runtime-main.js": "/reactPortfolio/static/js/runtime-main.e7182252.js",
+    "runtime-main.js.map": "/reactPortfolio/static/js/runtime-main.e7182252.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/reactPortfolio/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.eaae9e43.chunk.js": "/reactPortfolio/static/js/2.eaae9e43.chunk.js",
+    "static/js/2.eaae9e43.chunk.js.map": "/reactPortfolio/static/js/2.eaae9e43.chunk.js.map",
+    "index.html": "/reactPortfolio/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/reactPortfolio/static/css/2.0a9ec390.chunk.css.map",
+    "static/js/2.eaae9e43.chunk.js.LICENSE.txt": "/reactPortfolio/static/js/2.eaae9e43.chunk.js.LICENSE.txt",
+    "static/media/ToolsFinder.b3473026.gif": "/reactPortfolio/static/media/ToolsFinder.b3473026.gif",
+    "static/media/car-enthusiats.26aef8c2.gif": "/reactPortfolio/static/media/car-enthusiats.26aef8c2.gif",
+    "static/media/employee-manager.ce80dcbf.gif": "/reactPortfolio/static/media/employee-manager.ce80dcbf.gif",
+    "static/media/favicon.4fe75d5f.ico": "/reactPortfolio/static/media/favicon.4fe75d5f.ico",
+    "static/media/fitness-tracker.0cbc6c25.gif": "/reactPortfolio/static/media/fitness-tracker.0cbc6c25.gif",
+    "static/media/ivan.a7234c7d.jpg": "/reactPortfolio/static/media/ivan.a7234c7d.jpg",
+    "static/media/progresive-budget.4387ead8.gif": "/reactPortfolio/static/media/progresive-budget.4387ead8.gif",
+    "static/media/resume2.4754c068.pdf": "/reactPortfolio/static/media/resume2.4754c068.pdf",
+    "static/media/team-generator.ed038717.gif": "/reactPortfolio/static/media/team-generator.ed038717.gif",
+    "static/media/wheather-dashboard.2234911e.gif": "/reactPortfolio/static/media/wheather-dashboard.2234911e.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.50e4e051.js",
+    "static/js/runtime-main.e7182252.js",
     "static/css/2.0a9ec390.chunk.css",
-    "static/js/2.6b948ab0.chunk.js",
-    "static/js/main.d3165bbf.chunk.js"
+    "static/js/2.eaae9e43.chunk.js",
+    "static/js/main.67138a25.chunk.js"
   ]
 }
