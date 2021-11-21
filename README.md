@@ -2,7 +2,7 @@
 
 
 # Deployed 
-<a href="https://ivany9.github.io/reactPorfolio/">Deploy</a>
+<a href="https://ivany9.github.io/reactPortfolio/">Deploy</a>
 
 ## Description
 
