@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import { Cont, Container,ImgLink} from './pagesStyles';
+import React  from 'react';
+import { Cont, Container} from './pagesStyles';
 import  {Col, Row, Button} from 'react-bootstrap';
 import resume from '../images/resume2.pdf'
 

@@ -3,7 +3,6 @@ import React, { } from 'react';
 import { Cont, Container, Photo} from './pagesStyles';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import  {Col, Row} from 'react-bootstrap';
-import logo from '../images/favicon.ico'
 import ivan from '../images/ivan.jpg'
 
 

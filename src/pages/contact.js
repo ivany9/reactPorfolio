@@ -1,5 +1,4 @@
-import { contains } from 'dom-helpers';
-import {Form,Cont,ImgLink} from './pagesStyles';
+import {Form,Cont} from './pagesStyles';
 import React, { useState } from 'react';
 import {validateEmail,validata } from '../utils/helpers'
 import  { Button} from 'react-bootstrap';

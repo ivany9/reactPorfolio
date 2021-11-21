@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route,Redirect } from 'react-router-dom';
 import About from './pages/about';
 import Home from './pages';
 import Contact from './pages/contact';
@@ -17,11 +17,12 @@ function App() {
     <Router>
       <Navbar />
       <Switch>
-        <Route path='/reactPortfolio' exact  component={About} />
+        <Route path='/' exact  component={About} />
         <Route path='/about' exact component={About} /> 
         <Route path='/portfolio'exact component={Portfolio} />
         <Route path='/contact'exact component={Contact} />
         <Route path='/resume'exact component={Resume} />
+        <Redirect to="/"/>
       </Switch>
     </Router>
      </div>
