@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.js": "/reactPortfolio/static/js/main.67138a25.chunk.js",
-    "main.js.map": "/reactPortfolio/static/js/main.67138a25.chunk.js.map",
+    "main.css": "/reactPortfolio/static/css/main.99472b86.chunk.css",
+    "main.js": "/reactPortfolio/static/js/main.8c09598d.chunk.js",
+    "main.js.map": "/reactPortfolio/static/js/main.8c09598d.chunk.js.map",
     "runtime-main.js": "/reactPortfolio/static/js/runtime-main.e7182252.js",
     "runtime-main.js.map": "/reactPortfolio/static/js/runtime-main.e7182252.js.map",
     "static/css/2.0a9ec390.chunk.css": "/reactPortfolio/static/css/2.0a9ec390.chunk.css",
-    "static/js/2.eaae9e43.chunk.js": "/reactPortfolio/static/js/2.eaae9e43.chunk.js",
-    "static/js/2.eaae9e43.chunk.js.map": "/reactPortfolio/static/js/2.eaae9e43.chunk.js.map",
+    "static/js/2.dd33d1ea.chunk.js": "/reactPortfolio/static/js/2.dd33d1ea.chunk.js",
+    "static/js/2.dd33d1ea.chunk.js.map": "/reactPortfolio/static/js/2.dd33d1ea.chunk.js.map",
     "index.html": "/reactPortfolio/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/reactPortfolio/static/css/2.0a9ec390.chunk.css.map",
-    "static/js/2.eaae9e43.chunk.js.LICENSE.txt": "/reactPortfolio/static/js/2.eaae9e43.chunk.js.LICENSE.txt",
+    "static/css/main.99472b86.chunk.css.map": "/reactPortfolio/static/css/main.99472b86.chunk.css.map",
+    "static/js/2.dd33d1ea.chunk.js.LICENSE.txt": "/reactPortfolio/static/js/2.dd33d1ea.chunk.js.LICENSE.txt",
     "static/media/ToolsFinder.b3473026.gif": "/reactPortfolio/static/media/ToolsFinder.b3473026.gif",
     "static/media/car-enthusiats.26aef8c2.gif": "/reactPortfolio/static/media/car-enthusiats.26aef8c2.gif",
     "static/media/employee-manager.ce80dcbf.gif": "/reactPortfolio/static/media/employee-manager.ce80dcbf.gif",
-    "static/media/favicon.4fe75d5f.ico": "/reactPortfolio/static/media/favicon.4fe75d5f.ico",
     "static/media/fitness-tracker.0cbc6c25.gif": "/reactPortfolio/static/media/fitness-tracker.0cbc6c25.gif",
     "static/media/ivan.a7234c7d.jpg": "/reactPortfolio/static/media/ivan.a7234c7d.jpg",
     "static/media/progresive-budget.4387ead8.gif": "/reactPortfolio/static/media/progresive-budget.4387ead8.gif",
@@ -24,7 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.e7182252.js",
     "static/css/2.0a9ec390.chunk.css",
-    "static/js/2.eaae9e43.chunk.js",
-    "static/js/main.67138a25.chunk.js"
+    "static/js/2.dd33d1ea.chunk.js",
+    "static/css/main.99472b86.chunk.css",
+    "static/js/main.8c09598d.chunk.js"
   ]
 }
