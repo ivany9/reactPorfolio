@@ -21,7 +21,7 @@ const project=[
    url:"https://github.com/ivany9/Team-Profile-Generator.git",
    id:1,
    deploy:"https://ivany9.github.io/Team-Profile-Generator/",
-   description:"-The Team Profile Generator is an app that takes information about employees and them generates a HTML webpage displaying summaries for each person. The App Generate a Manager for project and the user can add roles to complete the project team. "
+   description:"The Team Profile Generator is an app that takes information about employees and  generates a HTML webpage displaying summaries for each person. The app generates a Manager for each project and the user can then add roles to complete the project team. "
   },
   {
       title:"Progressive Budget",
@@ -29,7 +29,7 @@ const project=[
       url:"https://github.com/ivany9/Progressive-Budget.git",
       id:2,
       deploy:"https://progressibudget.herokuapp.com/",
-      description:"The Budget Tracker App, is a digital wallet, you can track your incomes deposits or your outcomes expenses  no matter if the internet conexion is off, when your connection is back the data is going to be update in the database. also is a chart that help you to check the balance between this two operations. withdrawal or deposit relating the balance and the date."
+      description:"The Budget Tracker App is a digital wallet  where  you can track your incoming  deposits and your outgoing expenses. If the internet connection is off, as soon as you connect  back on  your data  will automatically update in the database. The app  also includes a chart that allows you to check the balance of your funds."
      },
      {
       title:"Weather Dashboard",
@@ -37,7 +37,7 @@ const project=[
       url:"https://github.com/ivany9/Weather-Dashboard.git",
       id:3,
       deploy:"https://ivany9.github.io/Weather-Dashboard/",
-      description:"Working with the wheatear API, the user can check the forecast for city, for the last 5 days, also the app store in the memory the previews search and generate button for each city "
+      description:"The weather Dashboard is an app that  works using  weather API's. The user can check the forecast  of  any  city  for the next 5 days. The app stores the searches of the user  in the memory, and the user can search quickly by using the   button generated for each previous city searched. "
      },
      {
       title:"Employee Management System",
@@ -45,7 +45,7 @@ const project=[
       url:"https://github.com/ivany9/Employee-Management-System.git",
       id:4,
       deploy:"https://1drv.ms/v/s!Ap_psURWyWFqhzOratDxVNA5o1Rq?e=17FjeH",
-      description:"The Employee Management App is a command line app that allows the user to manipulate data from a sql database. The user can call differents scenarios, you can wiew employee table, Department table, roles table, add employees, add deparments, add roles, update Managers and roles, also you can delete a employer. "
+      description:"The Employee Management App is a command line app that allows the user to manipulate data from an sql database. The user can manage employee details and add relevant information  including  Department, Roles, add deparments, add roles, update Managers and roles, and  also you can delete an employer when from teh system. "
      },
      {
       title:"Fitness Tracker",
@@ -53,7 +53,7 @@ const project=[
       url:"https://github.com/ivany9/Fitness-Tracker.git",
       id:5,
       deploy:"https://fittness-track.herokuapp.com/",
-      description:" A perfect app to keep on tack your workouts, you can add two types of exercises weights or cardio, and create a nice routine, also you can check the las 7 days workouts and have the statistics in a graphics. "
+      description:"The Fitness Tracker is a  perfect app to keep on track with  your workouts. You can add two types of exercises, weights or cardio, and create  excercise  routines.The app allows you  to check your  last 7 days of  workouts, and display  the statistics in a graph. "
      },
      {
       title:"Car Enthusiasts",
@@ -61,7 +61,7 @@ const project=[
       url:"https://github.com/ChristopherBz/Car-Enthusiasts.git",
       id:6,
       deploy:"https://car-enthusiasts.herokuapp.com/",
-      description:"It's a CMS-style blog site similar to a Wordpress site, where car lovers can publish their blog posts and comment on other fans posts as well. This app follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication. It is deployed to Heroku. ",
+      description:"The car Enthusiasts is a CMS-style blog site similar to a Wordpress site. It is a side where car lovers can publish their blog posts and comment on other fans posts. This app follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication. It is deployed to Heroku. ",
      },
   
   
@@ -71,7 +71,7 @@ const project=[
       url:"https://github.com/ivany9/toolsfinder",
       id:7,
       deploy:"https://toolsfinder.herokuapp.com/",
-      description:"The Tools Finder app is the perfect app to connect our neighborhood and help you get that job done. You can post your tools and make money from renting them out. On the other side you can rent someone elses tools to get your job done, all without spending money buying a new tool that they would only use once. "
+      description:"The Tools Finder app is the perfect app to connect people in their local  neighborhood and help you get that job done. You can post your tools and make money from renting them out. On the other side you can rent someone elses tools to get your job done, all without spending money buying a new tool that they would only use once. "
      }
   
   

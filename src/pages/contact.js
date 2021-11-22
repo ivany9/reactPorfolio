@@ -2,6 +2,7 @@ import {Form,Cont} from './pagesStyles';
 import React, { useState } from 'react';
 import {validateEmail,validata } from '../utils/helpers'
 import  { Button} from 'react-bootstrap';
+import { NavLink } from '../components/Navbar/NavbarElements';
 
 const Contact = () => {
 
@@ -62,7 +63,7 @@ const Contact = () => {
 
    }
 
-
+  
 
 
 
@@ -90,9 +91,13 @@ const Contact = () => {
     <div>
       <br/>
       </div>
-      < Button variant="dark" size="lg" onClick={handleFormSubmit}>Submit</Button>
-    
+      < Button variant="dark" size="lg" onClick={handleFormSubmit}>Submit</Button>{"           "}
+      <div className="form-group d-flex justify-content-end text-secondary" >
+      <a style={{color:"gray",textDecoration: 'none'}} href="mailto:ivany9@gmail.com">ivany9@gmail.com</a>
+      </div>
      </Form>
+     
+
      
     
 </Cont> 

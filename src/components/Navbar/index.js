@@ -1,7 +1,7 @@
 import React from "react";
 import '../Navbar/Navbar2.css';
-import { NavLink } from "react-router-dom";
-
+// import { NavLink } from "react-router-dom";
+import { NavLink } from "./NavbarElements";
 
 
 const NavBar = ()=>{

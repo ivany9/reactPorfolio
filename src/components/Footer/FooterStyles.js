@@ -16,7 +16,21 @@ max-width: 1000px
 	justify-content: center;
     font-size: 1.0rem;
    `
+export const Email= styled.a`
 
+color: #fff;
+font-size: 0.8rem;
+padding: 2rem;
+justify-content: start;
+
+
+
+&:hover {
+	color: gray;
+	transition: 200ms ease-in;
+}
+
+`
 
 export const FooterLink = styled.a`
 
