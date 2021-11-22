@@ -1,7 +1,7 @@
 import React from 'react';
 import {FooterLink,Container,Email} from './FooterStyles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook,faInstagram,faTwitter,faGithub} from "@fortawesome/free-brands-svg-icons";
+import { faFacebook,faInstagram,faGithub,faLinkedin} from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
    
@@ -13,7 +13,7 @@ const Footer = () => {
        <FooterLink href="https://facebook.com/jorgivan/" ><FontAwesomeIcon icon={faFacebook}/></FooterLink>
        <FooterLink href="https://instagram.com/jivan298" ><FontAwesomeIcon icon={faInstagram}/></FooterLink>
        <FooterLink href="https://github.com/ivany9" ><FontAwesomeIcon icon={faGithub}/></FooterLink>
-       
+       <FooterLink href="https://www.linkedin.com/in/jorge-ivan-2022b4113" ><FontAwesomeIcon icon={faLinkedin}/></FooterLink>
       </Container>
     );
   };
