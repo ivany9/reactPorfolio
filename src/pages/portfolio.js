@@ -10,7 +10,7 @@ import {faGithub, faProductHunt} from "@fortawesome/free-brands-svg-icons";
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {ImgLink,Cont} from './pagesStyles'
+import {ImgLink,Cont,Tech} from './pagesStyles'
 import React from 'react';
 import html from '../images/html5.png'
 import node from'../images/nodeJS.png'
@@ -165,12 +165,12 @@ const project=[
                {props.description}
               
              </div>
-              <div className="tech d-flex justify-content-center">
+              <Tech>
               <p>Technology :</p>{"\n"} 
             {props.icons.map((icon)=>(               
-            <img src={icon} className="photo justify-content-center p-1"/>
+            <img src={icon} className="photo  justify-content-center p-1"/>
             ))}
-        </div>
+        </Tech>
             <div className="ref d-flex justify-content-center ">
             <p>{props.role}</p> 
               </div>

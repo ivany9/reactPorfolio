@@ -1,6 +1,17 @@
-.photo {
+.photo{
     height: 30px;
     width: 30px;
+    
+   @media only screen and (max-width: 600px) { 
+    
+    height: 20px;
+    width: 20px;
+    
+
+      
+    } 
+
+
   }
 
   .des{
@@ -8,17 +19,13 @@
     font-size: 12px;
   }
 
-  
+
   .p{
 
     background-image: blue;
 
   }
 
-  /* @media only screen and (max-width: 600px) { 
-    #p { 
-      display: none; 
-    } 
     
 
-  } */
+  

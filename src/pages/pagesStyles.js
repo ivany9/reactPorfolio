@@ -61,6 +61,29 @@ export const Back= styled.div`
   }
 
 `
+export const Tech=styled.div`
+
+display:flex;
+flex-direction:row;
+justify-content:center;
+
+
+@media screen and (max-width: 500px) {
+    
+	
+
+
+	
+    p{
+     display:none
+
+	}
+
+	}
+
+
+`
+
 export const ContactLink = styled.a`{
 
 color: black;
