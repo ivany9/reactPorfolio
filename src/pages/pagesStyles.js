@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import contact from '../images/cont.jpg'
 
 
 export const ImgLink= styled.a`
@@ -20,21 +21,83 @@ export const Form= styled.div`
 
 
 justify-content: center;
+padding:30px;
 margin:  auto;
 aline-item:center;
-max-width: 800px;
-height: 1000px;
-padding: 100px;
+max-widht:800px;
 font-size:20px;
 color:black;
 
 `
 export const Cont= styled.div`
 
-padding:50px;
-background-color:lightgray;
-color: black;
 
+background:lightgray;
+color: black;
+height: 1000px;
+padding:30px;
+justify-content: center;
+aline-item:center;
+
+
+`
+
+export const Back= styled.div`
+
+
+ color:red;
+ display:flex;
+ flex-direction:row;
+ justify-content:center;
+ aline-items:center:
+
+
+@media screen and (max-width: 768px) {
+    
+
+	display:flex;
+	flex-direction:column;
+	font-size:8px;
+    
+  }
+
+`
+export const ContactLink = styled.a`{
+
+color: #fff;
+font-size: 1.8rem;
+padding: 2rem;
+text-decoration:none;
+
+
+&:hover {
+	color: gray;
+	transition: 200ms ease-in;
+}
+
+@media screen and (max-width: 768px) {
+    
+
+	display:flex;
+	flex-direction:row;
+	font-size:25px;
+	padding:10px;
+    p{
+     display:none
+
+	}
+
+	}
+    
+  }
+
+
+
+
+
+
+
+}
 `
 export const Container= styled.div`
 
