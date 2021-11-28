@@ -1,8 +1,11 @@
 import {Form,Cont} from './pagesStyles';
 import React, { useState } from 'react';
 import {validateEmail,validata } from '../utils/helpers'
-import  { Button} from 'react-bootstrap';
+import  { Button,Container,Row,Col} from 'react-bootstrap';
 import { NavLink } from '../components/Navbar/NavbarElements';
+import {FooterLink} from '../components/Footer/FooterStyles';
+import { FontAwesomeIcon,envelope } from '@fortawesome/react-fontawesome';
+import { faFacebook,faInstagram,faGithub,faLinkedin} from "@fortawesome/free-brands-svg-icons";
 
 const Contact = () => {
 
@@ -70,12 +73,15 @@ const Contact = () => {
 
   return (
     
+    
     <Cont>
       <Form>
         
         
-
-    <div className="form-group">
+     <Row>
+     <Col>
+    <div className="form-group p-1">
+     
         <label htmlFor="name">Name</label>
         <input value={userName} onChange={handleInputChange} name="userName"  className="form-control" placeholder="name"/><p> {errorMessagename}</p>
     </div>
@@ -93,14 +99,36 @@ const Contact = () => {
       </div>
       < Button variant="dark" size="lg" onClick={handleFormSubmit}>Submit</Button>{"           "}
       <div className="form-group d-flex justify-content-end text-secondary" >
-      <a style={{color:"gray",textDecoration: 'none'}} href="mailto:ivany9@gmail.com">ivany9@gmail.com</a>
+      
       </div>
+      </Col>
+      <Col>
+        
+       <div className="contact d-flex flex-column justify-content-end p-1">
+      <FooterLink href="https://facebook.com/jorgivan/" ><FontAwesomeIcon icon={faFacebook}/>  facebook</FooterLink>
+       <FooterLink href="https://instagram.com/jivan298" ><FontAwesomeIcon icon={faInstagram}/>  Instagram</FooterLink>
+       <FooterLink href="https://github.com/ivany9" ><FontAwesomeIcon icon={faGithub}/>  Github</FooterLink>
+       <FooterLink href="https://www.linkedin.com/in/jorge-ivan-2022b4113" ><FontAwesomeIcon icon={faLinkedin}/>  Linkedin</FooterLink>
+       <FooterLink className="fa fa-envelope" href="mailto:ivany9@gmail.com" >  email</FooterLink>
+       </div>
+      </Col>
+
+
+      </Row>
+      
+
      </Form>
+
+
+
+
+     
      
 
      
     
 </Cont> 
+
 
   );
 };

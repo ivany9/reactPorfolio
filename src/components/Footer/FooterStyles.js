@@ -36,7 +36,8 @@ export const FooterLink = styled.a`
 
 color: #fff;
 font-size: 1.8rem;
-padding: 1rem;
+padding: 2rem;
+text-decoration:none;
 
 
 &:hover {
