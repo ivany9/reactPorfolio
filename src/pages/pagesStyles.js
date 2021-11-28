@@ -21,10 +21,10 @@ export const Form= styled.div`
 
 
 justify-content: center;
-padding:30px;
+padding:80px;
 margin:  auto;
 aline-item:center;
-max-widht:800px;
+widht:400px;
 font-size:20px;
 color:black;
 

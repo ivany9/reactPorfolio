@@ -110,8 +110,7 @@ const Contact = () => {
       
       <Back>
       
-      <ContactLink href="https://facebook.com/jorgivan/" ><FontAwesomeIcon icon={faFacebook}/><p>facebook</p></ContactLink >
-       <ContactLink  href="https://instagram.com/jivan298" ><FontAwesomeIcon icon={faInstagram}/><p> Instagram</p></ContactLink >
+      
        <ContactLink  href="https://github.com/ivany9" ><FontAwesomeIcon icon={faGithub}/> <p>Github</p></ContactLink >
        <ContactLink href="https://www.linkedin.com/in/jorge-ivan-2022b4113" ><FontAwesomeIcon icon={faLinkedin}/><p>Linkedin</p></ContactLink >
        <ContactLink href="mailto:ivany9@gmail.com" ><FontAwesomeIcon icon={faEnvelope}/><p>email</p></ContactLink >
