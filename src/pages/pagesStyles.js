@@ -64,7 +64,7 @@ export const Back= styled.div`
 `
 export const ContactLink = styled.a`{
 
-color: #fff;
+color: black;
 font-size: 1.8rem;
 padding: 2rem;
 text-decoration:none;
@@ -80,8 +80,9 @@ text-decoration:none;
 
 	display:flex;
 	flex-direction:row;
-	font-size:25px;
+	font-size:30px;
 	padding:10px;
+	
     p{
      display:none
 
