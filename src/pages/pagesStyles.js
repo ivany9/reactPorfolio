@@ -34,7 +34,6 @@ export const Cont= styled.div`
 
 background:lightgray;
 color: black;
-height: 1000px;
 padding:30px;
 justify-content: center;
 aline-item:center;
