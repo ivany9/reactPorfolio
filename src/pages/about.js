@@ -4,7 +4,7 @@ import { Cont, Container, Photo} from './pagesStyles';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import  {Col, Row} from 'react-bootstrap';
 
-import ivan from '../images/ivan.jpg'
+import ivan from '../images/iva1.jpg'
 
 
 const About = () => {

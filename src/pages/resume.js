@@ -26,7 +26,7 @@ const Resume = () => {
       
       </div>
    
-       <h4>University Externado de Colomnia</h4>
+       <h4>University Externado de Colombia</h4>
        <p>Certificate, International Commerce 2009</p>
        <div>
       <br/>

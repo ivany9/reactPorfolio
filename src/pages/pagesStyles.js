@@ -137,6 +137,8 @@ export const Photo=styled.img`
 height: 300px;
 border-radius: 25px;
 
+@media screen and (max-width: 500px) {
+	height: 150px;
 
 `
 export const Img=styled.img`
